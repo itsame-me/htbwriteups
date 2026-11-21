@@ -10,7 +10,7 @@ title: DoubleTake - Hack The Box
 
 <table>
 <tr>
-<td "style=width:40%;">
+<td style="width:40%;">
 <img src="box-banner.png"></img>
 </td>
 <td "style=width:60%;">
