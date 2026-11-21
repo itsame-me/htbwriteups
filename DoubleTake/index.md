@@ -205,7 +205,7 @@ I search for a PoC for `CVE-2026-41567` and do not find any that would work well
 
 Implemented:
 
-```
+```Bash
 ➜  Doubletake cat > xz.c << 'EOF'
 #include <stdio.h>
 #include <stdlib.h>
