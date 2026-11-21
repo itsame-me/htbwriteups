@@ -8,4 +8,4 @@ title: Home
 
 | Machine | OS | Difficulty |
 |---------|----|------------|
-| [DoubleTake](./DoubleTake/) | Linux | Easy |
+| [DoubleTake](./DoubleTake/index.md) | Linux | Easy |
