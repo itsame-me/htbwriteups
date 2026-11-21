@@ -1,5 +1,3 @@
-
-
 # DoubleTake
 
 ## Box Info
