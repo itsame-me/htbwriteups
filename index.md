@@ -1,0 +1,11 @@
+
+---
+layout: default
+title: Home
+---
+# Hack The Box Writeups
+
+| Machine | OS | Difficulty |
+|---------|----|------------|
+| [DoubleTake](./DoubleTake/) | Linux | Easy |
+
