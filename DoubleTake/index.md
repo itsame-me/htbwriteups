@@ -4,12 +4,10 @@
 
 <table>
 <tr>
-<td style="width:40%;">
+<td>
 <img src="box-banner.png"></img>
 </td>
-<td style="width:60%;">
-
-
+<td>
 <table>
 <tr> <td><strong>Release Date</strong></td><td>  2026-11-12 </td></tr>
 <tr> <td><strong>OS</strong></td><td>  Linux </td></tr>
