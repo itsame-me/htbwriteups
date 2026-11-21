@@ -1,9 +1,4 @@
 
----
-layout: default
-title: DoubleTake - Hack The Box
----
-
 # DoubleTake
 
 ## Box Info
