@@ -1,3 +1,8 @@
+---
+layout: default
+title: DoubleTake
+---
+
 # DoubleTake
 
 ## Box Info
