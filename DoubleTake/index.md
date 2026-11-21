@@ -28,9 +28,13 @@ title: DoubleTake
 
 
 **Please note the following abbreviations:**
+
 LHOST - attacking box IP
+
 LPORT - local port
+
 RHOST - target IP
+
 RPORT - target port
 
 ## Enumeration
