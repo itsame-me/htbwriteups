@@ -7,23 +7,25 @@ title: DoubleTake
 
 ## Box Info
 
-<table>
-<tr>
-<td style="width:40%;">
-<img src="box-banner.png"></img>
-</td>
-<td style="width:60%;">
-<table>
-<tr> <td><strong>Release Date</strong></td><td>  2026-11-12 </td></tr>
-<tr> <td><strong>OS</strong></td><td>  Linux </td></tr>
-<tr> <td><strong>Difficulty (Category)</strong></td><td>  Easy </td></tr>
-<tr> <td><strong>User Difficulty Rating</strong></td><td>  <img src=./userdifficulty.png></img>  </td></tr>
-<tr> <td><strong>Star Rating</strong></td><td>  ★★★★  (4.2 / 5) </td></tr>
-<tr> <td><strong>Creator</strong></td><td>  <a href src="https://app.hackthebox.com/users/114053">TheCyberGeek</a> </td></tr>
 
+<table>
+  <tr>
+    <td width="40%">
+      <img src="box-banner.png" alt="DoubleTake">
+    </td>
+    <td width="60%">
+      <table>
+        <tr><td><strong>Release Date</strong></td><td>2026-11-12</td></tr>
+        <tr><td><strong>OS</strong></td><td>Linux</td></tr>
+        <tr><td><strong>Difficulty</strong></td><td>Easy</td></tr>
+        <tr><td><strong>User Difficulty Rating</strong></td><td><img src="userdifficulty.png"></td></tr>
+        <tr><td><strong>Star Rating</strong></td><td>★★★★ (4.2 / 5)</td></tr>
+        <tr><td><strong>Creator</strong></td><td><a href="https://app.hackthebox.com/users/114053">TheCyberGeek</a></td></tr>
+      </table>
+    </td>
+  </tr>
 </table>
-</tr>
-</table>
+
 
 **Please note the following abbreviations:**
 LHOST - attacking box IP
