@@ -1,0 +1,5 @@
+title: Offensive Security Writeups
+description: HTB Walkthroughs | Exploit Analysis | Technical Research
+theme: jekyll-theme-hacker
+markdown: kramdown
+highlighter: rouge
