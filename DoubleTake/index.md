@@ -1,8 +1,4 @@
 
----
-layout: default
-title: DoubleTake - Hack The Box
----
 
 # DoubleTake
 
@@ -13,7 +9,7 @@ title: DoubleTake - Hack The Box
 <td style="width:40%;">
 <img src="box-banner.png"></img>
 </td>
-<td "style=width:60%;">
+<td style="width:60%;">
 
 
 <table>
