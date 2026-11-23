@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: "Abducted"
@@ -15,7 +14,7 @@ title: "Abducted"
     </td>
     <td width="60%">
       <table>
-        <tr><td><strong>Release Date</strong></td><td>YYYY-MM-DD</td></tr>
+        <tr><td><strong>Release Date</strong></td><td>2026-06-05</td></tr>
         <tr><td><strong>OS</strong></td><td>Linux</td></tr>
         <tr><td><strong>Difficulty</strong></td><td>Medium</td></tr>
         <tr><td><strong>User Difficulty Rating</strong></td><td><img src="userdifficulty.png"></td></tr>
