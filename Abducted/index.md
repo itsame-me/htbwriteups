@@ -182,7 +182,7 @@ drwxr-x---  3 marcus marcus 4096 Jun  4 13:47 marcus
 drwxr-x---  3 scott  scott  4096 Jun  4 13:47 scott
 ```
 
-There are two users with shells on the system, marcus and scott. I also look for configuration and .bak files as they often contain passwords and other useful information for lateral movement and privesc. The list of files wasn't short, but I made my way through it. One file of interest and usefulness jumpted out.
+There are two users with shells on the system, marcus and scott. I also look for configuration and .bak files as they often contain passwords and other useful information for lateral movement and privesc. The list of files wasn't short, but I made my way through it. One file of interest and usefulness jumped out.
 
 ```
 nobody@abducted:/var/spool/samba$ find / -name "*.conf" 2>/dev/null
@@ -198,7 +198,7 @@ pass = HZKAxfnMj-nLm59X9gpcC2ohjQL-WqVT6yRsNw
 shell_type = unix
 nobody@abducted:/var/spool/samba$
 ```
-I found a sftp user for backup purposes and their password. I can use rclone to decrypt it.
+I found a sftp user for backup purposes and their password. I can use rclone to decode it.
 
 ```
 ➜  Abducted  rclone reveal "HZKAxfnMj-nLm59X9gpcC2ohjQL-WqVT6yRsNw"
@@ -207,7 +207,7 @@ I found a sftp user for backup purposes and their password. I can use rclone to 
 
 ### User Flag Obtained
 
-This password is only for a service account, but *someone* created the account. Password reuse is common so I try it against the two users. 
+This password is only for a service account, but *someone* created the account. Password reuse is common so I try it against the two users so I try the password for scott. 
 
 ```
 nobody@abducted:/var/spool/samba$ su marcus
