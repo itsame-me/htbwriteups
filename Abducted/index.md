@@ -26,10 +26,10 @@ title: "Abducted"
 </table>
 
 **Please note the following abbreviations:**
-LHOST - attacking box IP
-LPORT - local port
-RHOST - target IP
-RPORT - target port
+<br>LHOST - attacking box IP
+<br>LPORT - local port
+<br>RHOST - target IP
+<br>RPORT - target port
 
 ## Enumeration and Foothold
 
